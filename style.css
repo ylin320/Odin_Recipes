@@ -1,0 +1,127 @@
+.timeline {
+    position: relative;
+}
+
+
+.timeline img {
+    filter: brightness(70%);
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.timeline-page {
+    position: relative;
+}
+
+
+.timeline-page img {
+    filter: brightness(70%);
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.center {
+    color: white;
+    text-shadow: 5px 5px 10px black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    font-family: cursive;
+    /* font-weight: 600; */
+    letter-spacing: 8px;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+div.desc {
+    padding: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0.6%;
+    float: left;
+    width: 33.3333%;
+}
+
+div.desc img {
+    float: right;
+    width: 18px;
+    height: auto;
+}
+
+h1 {
+    /* position: absolute;
+    top: 23%;
+    left: 60%;
+    transform: translate(-50%, -50%); */
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: -8px;
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    line-height: 25px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.page {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 85vh;
+}
+
+.list-ul {
+    line-height: 25px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+}
+
+.list-ol {
+    line-height: 30px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+
+}
